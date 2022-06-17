@@ -331,7 +331,7 @@ body {
   margin: .5em;
 }
 
-.footer .container .social-media div a object img {
+.footer .container .social-media div a img {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
   width: 2em;
