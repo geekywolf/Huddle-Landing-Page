@@ -539,38 +539,70 @@ body {
   }
   .footer .container {
     margin: 0 5em;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3 1fr);
-    gap: 20em;
-        grid-template-areas: "logo none none" "contact-details links social-media" "copyright";
+    padding-bottom: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .footer .container img {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: logo;
-    padding-top: 10em;
+    width: 9em;
+    height: 3em;
+    margin-top: 3em;
   }
   .footer .container .contact-details {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    grid-area: contact-details;
+    margin-left: -9em;
+    margin-top: 13em;
+    width: 30vw;
+  }
+  .footer .container .contact-details .location img {
+    margin-top: -3.6em;
+  }
+  .footer .container .contact-details .location p {
+    font-size: 1em;
+  }
+  .footer .container .contact-details .number img {
+    margin-top: -3.6em;
+  }
+  .footer .container .contact-details .number p {
+    font-size: 1em;
+  }
+  .footer .container .contact-details .mail img {
+    margin-top: -3.6em;
+  }
+  .footer .container .contact-details .mail p {
+    font-size: 1em;
   }
   .footer .container .links {
-    -ms-grid-row: 2;
-    -ms-grid-column: 2;
-    grid-area: links;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 4em;
+            column-gap: 4em;
+    margin: 0 2em;
+    margin-top: 12.7em;
+    padding-left: 6em;
+  }
+  .footer .container .links a {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
   .footer .container .social-media {
-    -ms-grid-row: 2;
-    -ms-grid-column: 3;
-    grid-area: social-media;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: absolute;
+    right: 15em;
+    margin-top: 4.5em;
+  }
+  .footer .container .social-media div a img {
+    width: 1.5em;
   }
   .footer .container .copyright {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    grid-area: copyright;
+    position: absolute;
+    right: 5em;
+    margin-top: 63vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
