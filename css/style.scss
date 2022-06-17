@@ -13,13 +13,14 @@ body{
 
 .header{
     text-align: center;
+    background-color: $Very-Pale-Cyan;
     background-image: url(/images/bg-hero-mobile.svg);
-    height: 60vh;
+    height: auto;
     .header-container{
         display: flex;
         justify-content: center;
         justify-content: space-between;
-        margin:0 3em;
+        margin:0 2em;
         padding-top: 2em;
 
         img{
@@ -27,16 +28,288 @@ body{
             height: 2em;
         }
 
-        div{
+        button{
+            // height: .5em;
+            width: 17vh;
             background-color: white;
-            height: 3em;
             margin-top: -.5em;
             padding: 0 1em;
+            border: none ;
             border-radius: 2em;
-            box-shadow: .1em .1em .1em .1em;
+            box-shadow: 0.5px 0.5px 0.1px 0.1px rgba($color: #3b3b3b, $alpha: 0.5);
             a{
-
+                color: $Very-Dark-Cyan;
+                text-decoration: none;
+                font-family:'Open Sans','Times New Roman', Times, serif;
+                font-weight: 700;
+                line-height: 1px;
+                &:hover{
+                    color: rgba($color: #3b3b3b, $alpha: 0.7);
+                }
             }
         }
     }
+
+    .header-body-container{
+        margin: 3em;
+        h1{
+            font-family:'Poppins','Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: 2em;
+            text-transform: capitalize;
+        }
+        p{
+            font-family:'Open Sans','Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 1.2em;
+        }
+
+        a{
+            // height: .5em;
+            text-decoration: none;
+            button{
+                width: 80%;
+                background-color: $Pink;
+                margin-top: 2em;
+                padding: 0 1em;
+                border: none ;
+                border-radius: 2em;
+                box-shadow: 0.8px 0.8px 0.1px 0.1px rgba($color: #3b3b3b, $alpha: 0.1);
+                cursor: pointer;
+                p{    
+                    color: $Very-Pale-Cyan;
+                    font-size: 1em;
+                    font-family:'Poppins','Times New Roman', Times, serif;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                }
+            }
+            a,button:hover{
+                    background-color:rgba($color: $Pink, $alpha: 0.7);
+            }
+        }
+
+        img{
+            margin-top: 5em;
+            display: inline-block;
+            width: 100%;
+        }
+}
+}
+
+.grow-together{
+    display: block;
+    justify-content: center ;
+    width: 80%;
+    height: auto;
+    border: 1em thick #000;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px 0.2px rgba($color: #3b3b3b, $alpha: 0.2);
+    margin: 3em;
+    text-align: center;
+    .container{
+        padding: 2em;
+        img{
+            margin: 2em auto;
+            display: block;
+            width: 80%; 
+        }
+        h1{
+            margin-top: 2em;
+            text-transform: capitalize;
+            font-family:'Poppins','Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: 1.5em;
+        }
+        p{
+            font-family:'Open Sans','Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 1.1em;
+            color: rgba($color: $Very-Dark-Cyan, $alpha: 0.6);
+
+        }
+    }
+}
+
+.flowing-conversations{
+    display: block;
+    justify-content: center ;
+    width: 80%;
+    height: auto;
+    border: 1em thick #000;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px 0.2px rgba($color: #3b3b3b, $alpha: 0.2);
+    margin: 3em;
+    text-align: center;
+    .container{
+        padding: 2em;
+        img{
+            margin: 2em auto;
+            display: block;
+            width: 80%; 
+        }
+        h1{
+            margin-top: 2em;
+            text-transform: capitalize;
+            font-family:'Poppins','Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: 1.5em;
+        }
+        p{
+            font-family:'Open Sans','Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 1.1em;
+            color: rgba($color: $Very-Dark-Cyan, $alpha: 0.6);
+        }
+    }
+}
+
+.your-users{
+    display: block;
+    justify-content: center ;
+    width: 80%;
+    height: auto;
+    border: 1em thick #000;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px 0.2px rgba($color: #3b3b3b, $alpha: 0.2);
+    margin: 3em;
+    text-align: center;
+    .container{
+        padding: 2em;
+        img{
+            margin: 2em auto;
+            display: block;
+            width: 80%; 
+        }
+        h1{
+            margin-top: 2em;
+            text-transform: capitalize;
+            font-family:'Poppins','Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: 1.5em;
+        }
+        p{
+            font-family:'Open Sans','Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 1.1em;
+            color: rgba($color: $Very-Dark-Cyan, $alpha: 0.6);
+
+        }
+    }
+}
+
+.footer{
+    background-color: $Very-Dark-Cyan;
+    margin-bottom: -1em;
+    .container{
+        margin: 0 1em;
+        img {
+            padding-top: 2em;
+            filter: brightness(0) invert(1);
+        }
+
+        .contact-details{
+            .location{
+                display: flex;
+                img{
+                    margin-top: -.3em;
+                    margin-right: 1em;
+                    width: 1.5em;
+                    height: 1.5em;
+                }
+                p{
+                    color: white;
+                    font-family:'Open Sans','Times New Roman', Times, serif;
+                    font-weight: 400;
+                    font-size: 1.3em;
+                }
+            }
+
+            .number{
+                display: flex;
+                img{
+                    margin-top: -.2em;
+                    margin-right: 1em;
+                    width: 1.1em;
+                    height: 1.1em;
+                }
+                p{
+                    color: white;
+                    font-family:'Open Sans','Times New Roman', Times, serif;
+                    font-weight: 400;
+                    font-size: 1.3em;
+                }
+            }
+
+            .mail{
+                display: flex;
+                img{
+                    margin-top: -.2em;
+                    margin-right: 1em;
+                    width: 1.1em;
+                    height: 1.1em;
+                }
+                p{
+                    color: white;
+                    font-family:'Open Sans','Times New Roman', Times, serif;
+                    font-weight: 400;
+                    font-size: 1.3em;
+                }
+            }
+        }
+
+        .links{
+            a{
+                width: fit-content;
+                display: block;
+                color: white;
+                text-transform: capitalize;
+                text-decoration: none;
+                margin: 1em 0;
+                font-family:'Open Sans','Times New Roman', Times, serif;
+                font-weight: 400;
+                font-size: 1.1em;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .social-media{
+            display: flex;
+            justify-content: center;
+            div{
+                border: 1em thin #fff;
+                border-radius: 50%;
+                margin: .5em;
+                a{
+                    object{
+                        img{
+                        filter: brightness(0) invert(1);
+                        width: 2em;
+                    }
+                    }
+                }
+                a:hover{
+                    
+                }
+                
+            }
+        }
+
+        .copyright{
+            p{
+                text-align: center;
+                color: white;
+                padding-bottom: 1em;
+                font-size: 12px;
+                font-family:'Open Sans','Times New Roman', Times, serif;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 720px){
+    
 }
