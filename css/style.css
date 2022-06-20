@@ -310,6 +310,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: -2em;
 }
 
 .footer .container .contact-details .number img {
@@ -331,6 +332,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: -2em;
 }
 
 .footer .container .contact-details .mail img {
