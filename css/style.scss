@@ -28,7 +28,7 @@ body{
         }
 
         button{
-            width: 25vw;
+            width: 27vw;
             background-color: white;
             margin-top: -.5em;
             border: none ;
@@ -42,7 +42,7 @@ body{
                 p{
                     width: 21vw;
                     font-size: 0.8em;
-                    text-align: center;
+                    margin: 0 auto;
                 }
                 &:hover{
                     color: rgba($color: #3b3b3b, $alpha: 0.7);

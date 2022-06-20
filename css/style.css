@@ -27,7 +27,7 @@ body {
 }
 
 .header .header-container button {
-  width: 25vw;
+  width: 27vw;
   background-color: white;
   margin-top: -.5em;
   border: none;
@@ -46,7 +46,7 @@ body {
 .header .header-container button a p {
   width: 21vw;
   font-size: 0.8em;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .header .header-container button a:hover {
