@@ -47,6 +47,7 @@ body {
 
 .header .header-container button a p {
   font-size: 0.8em;
+  margin: 0 2em;
 }
 
 .header .header-container button a:hover {
