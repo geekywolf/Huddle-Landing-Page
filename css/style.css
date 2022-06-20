@@ -566,29 +566,37 @@ body {
   }
   .footer .container .contact-details .location p {
     font-size: 1em;
+    margin-top: 4em;
+  }
+  .footer .container .contact-details .number {
+    margin-top: -2.6em;
   }
   .footer .container .contact-details .number img {
     margin-top: -3.6em;
   }
   .footer .container .contact-details .number p {
     font-size: 1em;
+    margin-top: 4em;
+  }
+  .footer .container .contact-details .mail {
+    margin-top: -2.6em;
   }
   .footer .container .contact-details .mail img {
     margin-top: -3.6em;
   }
   .footer .container .contact-details .mail p {
     font-size: 1em;
+    margin-top: 4em;
   }
   .footer .container .links {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    -webkit-column-gap: 4em;
-            column-gap: 4em;
-    margin: 0 2em;
-    margin-top: 12.7em;
-    padding-left: 6em;
+    -webkit-column-gap: 4.5em;
+            column-gap: 4.5em;
+    margin-top: 15.5em;
+    padding-left: 7em;
   }
   .footer .container .links a {
     width: -webkit-max-content;
@@ -604,12 +612,12 @@ body {
     margin-top: 4.5em;
   }
   .footer .container .social-media div a img {
-    width: 1.5em;
+    width: 1.3em;
   }
   .footer .container .copyright {
     position: absolute;
     right: 5em;
-    margin-top: 63vh;
+    margin-top: 66vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

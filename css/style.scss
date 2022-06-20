@@ -512,24 +512,30 @@ body{
                 width: 30vw;
                 .location{
                     img{margin-top: -3.6em;}
-                    p{font-size: 1em;}
+                    p{
+                        font-size: 1em;
+                        margin-top: 4em;
+                    }
                 }
                 .number{
+                    margin-top: -2.6em;
                     img{margin-top: -3.6em;}
-                    p{font-size: 1em;}
+                    p{font-size: 1em;
+                        margin-top: 4em;}
                 }
                 .mail{
+                    margin-top: -2.6em;
                     img{margin-top: -3.6em;}
-                    p{font-size: 1em;}
+                    p{font-size: 1em;
+                        margin-top: 4em;}
                 }
             }
             .links{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                column-gap: 4em;
-                margin: 0 2em;
-                margin-top: 12.7em;
-                padding-left: 6em;
+                column-gap: 4.5em;
+                margin-top: 15.5em;
+                padding-left: 7em;
                 a{
                     width: max-content;
                 }
@@ -542,7 +548,7 @@ body{
                 div{
                     a{
                         img{
-                            width: 1.5em;
+                            width: 1.3em;
                         }
                     }
                     
@@ -551,7 +557,7 @@ body{
             .copyright{
                 position: absolute;
                 right: 5em;
-                margin-top: 63vh;
+                margin-top: 66vh;
             }
         }
     }
