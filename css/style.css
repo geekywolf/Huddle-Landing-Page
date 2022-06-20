@@ -276,7 +276,7 @@ body {
 }
 
 .footer .container img {
-  padding-top: 5em;
+  padding-top: 20vh;
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
 }
