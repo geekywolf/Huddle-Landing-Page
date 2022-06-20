@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
 body {
   margin: 0;
+  background-color: #fff;
 }
 
 .header {
@@ -411,11 +412,14 @@ body {
     height: 2.5em;
   }
   .header .header-container button {
-    width: 12vw;
-    font-size: .9em;
+    width: 30vw;
+  }
+  .header .header-container button a {
+    margin: 0 auto;
   }
   .header .header-container button a p {
     font-size: 1em;
+    text-align: center;
   }
   .header .header-body-container {
     display: -webkit-box;
