@@ -45,6 +45,10 @@ body {
   line-height: 1px;
 }
 
+.header .header-container button a p {
+  font-size: 0.8em;
+}
+
 .header .header-container button a:hover {
   color: rgba(59, 59, 59, 0.7);
 }

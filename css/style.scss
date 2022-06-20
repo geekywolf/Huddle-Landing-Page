@@ -41,6 +41,7 @@ body{
                 font-family:'Open Sans','Times New Roman', Times, serif;
                 font-weight: 700;
                 line-height: 1px;
+                p{font-size: 0.8em;}
                 &:hover{
                     color: rgba($color: #3b3b3b, $alpha: 0.7);
                 }
