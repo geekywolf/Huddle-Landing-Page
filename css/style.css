@@ -30,7 +30,6 @@ body {
   width: 21vw;
   background-color: white;
   margin-top: -.5em;
-  padding: 0 1em;
   border: none;
   border-radius: 2em;
   -webkit-box-shadow: 0.5px 0.5px 0.1px 0.1px rgba(59, 59, 59, 0.5);
@@ -46,8 +45,9 @@ body {
 }
 
 .header .header-container button a p {
+  width: auto;
   font-size: 0.8em;
-  margin: 0 2em;
+  text-align: center;
 }
 
 .header .header-container button a:hover {

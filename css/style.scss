@@ -31,7 +31,6 @@ body{
             width: 21vw;
             background-color: white;
             margin-top: -.5em;
-            padding: 0 1em;
             border: none ;
             border-radius: 2em;
             box-shadow: 0.5px 0.5px 0.1px 0.1px rgba($color: #3b3b3b, $alpha: 0.5);
@@ -41,8 +40,11 @@ body{
                 font-family:'Open Sans','Times New Roman', Times, serif;
                 font-weight: 700;
                 line-height: 1px;
-                p{font-size: 0.8em;
-                margin: 0 2em;}
+                p{
+                    width: auto;
+                    font-size: 0.8em;
+                    text-align: center;
+                }
                 &:hover{
                     color: rgba($color: #3b3b3b, $alpha: 0.7);
                 }
