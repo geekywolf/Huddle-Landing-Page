@@ -541,7 +541,9 @@ body {
     font-size: 1.3em;
   }
   .footer-bubble {
-    width: 30%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
     margin: -1em auto 5em;
     padding: 2em;
   }
