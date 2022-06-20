@@ -412,12 +412,10 @@ body {
     height: 2.5em;
   }
   .header .header-container button {
-    width: 30vw;
-  }
-  .header .header-container button a {
-    margin: 0 auto;
+    width: 12vw;
   }
   .header .header-container button a p {
+    width: auto;
     font-size: 1em;
     text-align: center;
   }
